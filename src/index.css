@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=DM+Serif+Display&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 35 30% 96%;
+    --foreground: 30 12% 16%;
+    --card: 36 33% 98%;
+    --card-foreground: 30 12% 16%;
+    --popover: 36 33% 98%;
+    --popover-foreground: 30 12% 16%;
+    --primary: 158 28% 38%;
+    --primary-foreground: 40 30% 97%;
+    --secondary: 32 40% 92%;
+    --secondary-foreground: 30 12% 16%;
+    --muted: 34 20% 93%;
+    --muted-foreground: 30 14% 46%;
+    --accent: 22 55% 85%;
+    --accent-foreground: 30 12% 16%;
+    --destructive: 0 60% 55%;
+    --destructive-foreground: 40 30% 97%;
+    --border: 30 25% 86%;
+    --input: 30 25% 86%;
+    --ring: 158 28% 38%;
+    --radius: 0.75rem;
+    --sidebar-background: 36 33% 97%;
+    --sidebar-foreground: 30 12% 30%;
+    --sidebar-primary: 158 28% 38%;
+    --sidebar-primary-foreground: 40 30% 97%;
+    --sidebar-accent: 34 20% 93%;
+    --sidebar-accent-foreground: 30 12% 16%;
+    --sidebar-border: 30 25% 86%;
+    --sidebar-ring: 158 28% 38%;
+    --sage: 158 28% 38%;
+    --sage-soft: 158 30% 93%;
+    --sand: 35 30% 96%;
+    --sand-dark: 32 25% 88%;
+    --peach: 22 55% 85%;
+    --peach-soft: 22 60% 94%;
+    --warm-text: 30 12% 16%;
+    --warm-muted: 30 14% 46%;
+  }
+}
+
+@layer base {
+  * { @apply border-border; }
+  body { @apply bg-background text-foreground; }
+}
